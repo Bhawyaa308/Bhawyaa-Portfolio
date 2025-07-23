@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhawyaa's Portfolio</title>
+  <link rel="icon" type="image/png" href="vecteezy_golden-letter-b-cursive_33891043.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">Bhawyaa</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+<section class="hero-section">
+  <div class="photo-bg">
+    <div class="shape shape-blue"></div>
+    <div class="shape shape-orange"></div>
+    <img src="WhatsApp Image 2025-07-20 at 22.49.10_f8b063c6.jpg" alt="Bhawyaa" class="profile-pic">
+  </div>
+  <div class="hero-content">
+    <h1>Hi, I'm <span class="highlight">Bhawyaa</span></h1>
+    <p>Developer&nbsp;|&nbsp;Problem Solver&nbsp;|&nbsp;UI Enthusiast</p>
+    <button class="contact-btn" onclick="scrollToSection('contact')">Contact Me</button>
+  </div>
+</section>
+
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Welcome! I am a passionate developer with skills ike C++, Python, front-end technologies, data structures, algorithms, and UI design using Figma. I create beautiful and functional digital experiences.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill"><span>C++</span><div class="skill-bar" data-skill="85"></div></div>
+      <div class="skill"><span>Data Structures & Algorithms</span><div class="skill-bar" data-skill="50"></div></div>
+      <div class="skill"><span>HTML/CSS</span><div class="skill-bar" data-skill="80"></div></div>
+      <div class="skill"><span>JavaScript</span><div class="skill-bar" data-skill="65"></div></div>
+      <div class="skill"><span>Python</span><div class="skill-bar" data-skill="50"></div></div>
+      <div class="skill"><span>Operating System</span><div class="skill-bar" data-skill="50"></div></div>
+      <div class="skill"><span>DBMS</span><div class="skill-bar" data-skill="70"></div></div>
+      <div class="skill"><span>Figma (UI)</span><div class="skill-bar" data-skill="70"></div></div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project-card">
+       <a href="https://fluffy-liger-7d4a01.netlify.app/" class="decor" target="_blank" rel="noopener noreferrer">Spotify Clone</a>
+
+        
+        <p>A responsive Spotify-style web music player built with HTML, CSS, and Font Awesome, featuring interactive song cards, artist sections, sidebar navigation, and a fixed playbar—all optimized for desktop and mobile use.</p>
+      </div>
+      <div class="project-card">
+        <a href="https://bhawyaa308.github.io/flipcart-clone-project/" class="decor" target="_blank" rel="noopener noreferrer">Flipcart Clone</a>
+        <p>I built a basic Flipkart clone using HTML and CSS, featuring a responsive layout with a structured homepage, product listings. I used Flexbox for responsiveness and added styling effects to enhance the user experience.</p>
+      </div>
+      <div class="project-card">
+        <a href="https://linktr.ee/mangonel_2c017_2024" class="decor" target="_blank" rel="noopener noreferrer">Redesigning the throwing arm of Mangonel</a>
+        <p>Explore engineering aspects like design, structures, and teamwork dynamics. Build a precision mangonel which throws the projectile at a consistent range and also calculate Range, Angular velocity and angle of launch.</p>
+      </div>
+      <!-- More projects as needed -->
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
